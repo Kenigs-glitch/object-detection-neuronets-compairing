@@ -17,7 +17,7 @@ IOU_threshold = 0.15  # Порог intersection-oer-union для интерпр�
 magic_number_of_images = 2854
 trust_threshold = 0  # Уверенность детектора
 txt_folder = 'FDDB-folds/'  # Директория с аннотациями к изображениям
-img_folder = '/home/ilya/Pictures/'  # Директория с датасетом
+img_folder = ''  # Директория с датасетом
 progress_x = 0
 detectors = ['Mobilenet', 'Yolov 5', 'MTCNN', 'CNN']
 
