@@ -212,8 +212,6 @@ for IOU_threshold in np.linspace(0.03, 0.33, num=11, endpoint=True):
 
 for detector in detectors:
     plt.scatter(metrics[detector]['recall'], metrics[detector]['precision'], label=detector)
-    x = np.linspace(0, 1, num=11, endpoint=True)
-    f = interp1d(metrics[detector]['precision'], metrics[detector]['recall'])
 
 print(metrics)
 
