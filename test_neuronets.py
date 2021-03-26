@@ -201,7 +201,7 @@ def test_detectors(detection_trust_threshold, box_intersection_threshold):
     cv2.destroyAllWindows()
 
 
-for IOU_threshold in np.linspace(0.03, 0.33, num=11, endpoint=True):
+for trust_threshold in np.linspace(0.03, 0.98, num=11, endpoint=True):
     test_detectors(trust_threshold, IOU_threshold)
     for detector in detectors:
         metrics[detector]['TP'] = 0
