@@ -1,0 +1,18 @@
+person,255,255,255
+face,0,255,255
+wheelchair,0,0,255
+bicycle,255,0,255
+motorcycle,255,255,0
+car,127,21,173
+van,222,230,31
+bus,4,71,252
+truck,131,243,96
+license plate,91,240,83
+bird,28,185,175
+cat,147,147,43
+dog,74,27,51
+horse,246,208,101
+sheep,122,199,200
+bull,2,198,8
+bear,164,199,229
+luggage,58,249,131
